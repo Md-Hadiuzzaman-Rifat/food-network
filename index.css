@@ -25,13 +25,22 @@ section{
     padding-left:2% ; */
 }
 .first-section p{
-    margin-top: 30px;
+    margin-top: 20px;
     color: rgb(141, 141, 141);
     font-size: 18px;
+    margin-bottom: 40px;
 }
 .second-section{
     background-image: url(./images/7.png);
     background-repeat: no-repeat;
+}
+a{
+
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color:white;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
 img{
     width: 130%;
@@ -43,5 +52,5 @@ img{
     margin-top: 46px;
 }
 .second-section h1{
-    margin-top: 150px;
+    margin-top: 80px;
 }
