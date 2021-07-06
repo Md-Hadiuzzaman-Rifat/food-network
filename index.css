@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(255, 249, 240, 0.651);
+    background-color: rgba(255, 249, 240, 0.192);
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
@@ -7,14 +7,20 @@ h1{
     font-size: 50px;
     color:rgb(99, 99, 99)
 }
+h2{
+    color:rgb(99, 99, 99);
+    font-size:35px;
+}
 span{
     color:orange
 }
+.flexible{
+    display:flex;
+}
 section{
-    display: flex;
     margin-top:50px;
     height:500px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .half{
     width: 40%;
@@ -51,6 +57,31 @@ img{
 .second-section img{
     margin-top: 46px;
 }
-.second-section h1{
+.second-section h2{
     margin-top: 80px;
+}
+.last{
+    width: 60%;
+    margin: auto;
+}
+.third-section p,h2{
+    text-align: center;
+}
+.area{
+    width: 1070px;
+    margin:auto;
+    padding-left: 1%;
+}
+.box{
+    padding: 1.5%;
+    width:28%;
+    margin-left: 40px;
+    background:white;
+    box-shadow:10px 10px 15px 15px rgba(128, 128, 128, 0.329);
+    border-radius: 5%;
+    margin-top: 50px;
+}
+
+.box img{
+    width: 100%;
 }
